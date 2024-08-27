@@ -3,9 +3,25 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedAlbay/Chat-Server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AhmedAlbay/Chat-Server/issues"
+  },
+  "homepage": "https://github.com/AhmedAlbay/Chat-Server#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoos": "^0.0.1-security",
+    "nodemon": "^3.1.4",
+    "socket.io": "^4.7.5"
+  }
 }
