@@ -18,6 +18,7 @@
   "homepage": "https://github.com/AhmedAlbay/Chat-Server#readme",
   "description": "",
   "dependencies": {
+    "chat-server": "file:",
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "mongoos": "^0.0.1-security",
